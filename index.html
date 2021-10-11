@@ -9,50 +9,54 @@
 </head>
 <body>
     <table>
-    <h2>FORMULARIO DE INSCRIPCION</h2>
-    <h2>Datos personales</h2>
-    <form action="">
-             Nombre: <input type="text"> <br><br>
-             Apellido: <input type="text"><br><br>
-             Direccion: <input type="text"><br><br>
-             Telefono: <input type="tel"><br><br>
-             Correo electronico: <input type="email"><br><br>
-             Documento: <input type="text"><br><br>
-             Fecha de nacimiento: <input type="date"><br><br>
+    <h2 style="text-align: center; color: brown;" >FORMULARIO DE INSCRIPCION</h2>
+    <h2>DATOS PERSONALES</h2>
+    <Table>
+    <form action="" >
+            <tr>Nombre: <input type="text"><br></tr>
+            <tr>Apellido: <input type="text"><br><br></tr>
+            <tr>Direccion: <input type="text"><br><br></tr>
+            <tr>Telefono: <input type="tel"><br><br></tr>
+            <tr>Correo electronico: <input type="email"><br><br></tr>
+            <tr>Documento: <input type="text"><br><br></tr>
+            <tr>Fecha de nacimiento: <input type="date"><br><br></tr>
     </form>
-    
+    </Table>
     <table>
         <h2>CAPACITACION</h2>
         <tr>
             <td>Curso</td>
             <td>Excel</td>
-            <td>Dias</td>
+            <td colspan="4">Dias</td>
         </tr>
         <tr>
             <td>Horario</td>
             <td>15 a 6 horas</td>
-            <td>Lunes</td>
-            <td>Martes</td>
-            <td>Miercoles</td>
-            <td>Jueves</td>
+           <td><input type="radio"><br>Lunes<br></td>
+           <td><input type="radio"><br>Martes<br></td>
+           <td><input type="radio"><br>Miercoles<br></td>
+           <td><input type="radio"><br>Jueves<br></td>
         </tr>
+    </table>
         <Table>
             <h2>PLAN DE PAGO</h2>
             <tr>
-                <td>#</td>
+                <td><input type="radio"></td>
                 <td>Contado</td>
                 <td>Dolares</td>
             </tr>
             <tr>
-                <td>#</td>
+                <td><input type="radio"></td>
                 <td>Credito</td>
                 <td>American Express</td>
             </tr>
         </Table>
+        <h2>DATOS DE LA INSTITUCION</h2>
+        <table>
         <form action="">
-            Nro de contrato <input type="text"><br><br>
+            Nro de contrato <input type="number"><br><br>
             Persona que atendió <input type="text"><br><br>
-            Fecha de inscripcion <input type="text"><br><br>
+            Fecha de inscripcion <input type="date"><br><br>
         </form>
     </table>
 </table>
